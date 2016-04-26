@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Share.js</title>
+    <link rel="stylesheet" href="share.js/css/share.min.css">
+    <style type="text/css">
+    	div {
+    		display: inline-block;
+    	}
+    	#sharejs {
+    		width:220px;
+    		/*position: relative;*/
+		    overflow:hidden;
+		    height: 90px;
+    	}
+    	#content {
+		    position: relative;
+		    overflow:hidden;
+		    width:90px;
+		    height: 90px;
+		}
+    	#content #qrcode {
+		    background: #fff;
+		    padding: 1px;
+		    border: 1px solid #DDD;
+    		box-shadow: 0 0 3px #CCC;
+		}
+		#content #favicon {
+		    display: none;
+		    opacity: .95;
+		    position: absolute;
+		    top: 50%;
+		    left: 50%;
+		    background: #fff;
+		    padding: 1px;
+		    width: 10px;
+		    height: 10px;
+		    margin-left: -5px;
+		    margin-top: -5px;
+		    border-radius: 2px;
+		}
+
+    </style>
+</head>
+
+<body style="width:320px;">
+	<div style="width:320px;">
+	    <div id="sharejs" data-disabled="wechat" class="social-share"></div>
+	    <div id="content">
+	    	<img src="res/icon_128.png" width="84" height="84" id="qrcode" />
+	        <img src="res/icon_16.png" width="16" height="16" id="favicon" />
+	    </div>
+	</div>
+	<script src="share.js/js/jquery.min.js"></script>
+    <script src="share.js/js/social-share.min.js"></script>
+    <script src="share.js/js/qrgen.min.js"></script>
+    <script src="share.js/js/qrcode_option.js"></script>
+    <script src="share.js/js/popup.js"></script>
+</body>
+</html>

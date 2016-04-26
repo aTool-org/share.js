@@ -1,0 +1,29 @@
+{
+   "browser_action": {
+      "default_icon": {
+         "19": "MISC/19.png",
+         "38": "MISC/38.png"
+      },
+      "default_popup": "anyShare.html",
+      "default_title": "anyShare"
+   },
+   "browser_action": {
+      "default_icon": "res/icon_32.png",
+      "default_popup": "sharejs.html",
+      "default_title": "Share.js"
+   },
+   "default_locale": "zh_CN",
+   "description": "__MSG_extDesp__",
+   "homepage_url": "https://github.com/aTool-org",
+   "icons": {
+      "256": "res/icon_256.png",
+      "128": "res/icon_128.png",
+      "64": "res/icon_64.png",
+      "32": "res/icon_32.png",
+      "16": "res/icon_16.png"
+   },
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "permissions": [ "tabs", "http://hust.cc/" ],
+   "version": "1.0.0"
+}

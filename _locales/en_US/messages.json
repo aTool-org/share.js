@@ -1,0 +1,8 @@
+{
+   "extDesp": {
+      "message": "Share.js is a very tiny js chrome plugin to create custom social share components on DOM elements for your website. No dependencies."
+   },
+   "extName": {
+      "message": "Share.js"
+   }
+}

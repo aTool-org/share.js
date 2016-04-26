@@ -1,0 +1,8 @@
+{
+   "extDesp": {
+      "message": "Share.js 是一个非常轻量级的Chrome浏览器插件，用于将当前页面分享到社交网络中，支持非常多的网站分享。无依赖。"
+   },
+   "extName": {
+      "message": "Share.js"
+   }
+}
